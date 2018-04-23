@@ -1,0 +1,37 @@
+
+Client : {
+   
+   "msg": "Hey Service, can you provide me a question with numbers to add?",
+   "serviceNum": "Service 1"
+
+}
+
+Service : Here you go, solve the question: “Please sum the numbers 6,7".
+
+
+Client : {
+   
+   "msg": "Great. The original question was “Please sum the numbers 6,7” and the answer is 15.",
+   "serviceNum": "Service 2"
+
+}
+
+Service : That’s wrong. Please try again.
+
+Client : {
+   
+   "msg": "Great. The original question was “Please sum the numbers 2,7” and the answer is 15.",
+   "serviceNum": "Service 2"
+
+}
+
+Service : Response Numbers Changed
+
+Client : {
+   
+   "msg": "Great. The original question was “Please sum the numbers 6,7” and the answer is 13.",
+   "serviceNum": "Service 2"
+
+}
+
+Service : That’s great
